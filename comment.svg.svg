@@ -1,0 +1,24 @@
+<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="comment.svg" clip-path="url(#clip0_148_1181)">
+<g id="Clip path group">
+<mask id="mask0_148_1181" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="17">
+<g id="a">
+<path id="Vector" d="M16.8599 0.629883H0.859863V16.6299H16.8599V0.629883Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_148_1181)">
+<g id="Group">
+<path id="Vector_2" d="M8.85986 14.6299C12.1736 14.6299 14.8599 11.9436 14.8599 8.62988C14.8599 5.31617 12.1736 2.62988 8.85986 2.62988C5.54615 2.62988 2.85986 5.31617 2.85986 8.62988C2.85986 9.62163 3.10048 10.5572 3.52653 11.3814L2.85986 14.6299L6.10839 13.9632C6.93255 14.3893 7.86811 14.6299 8.85986 14.6299Z" stroke="#8E8E8E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M5.86653 8.62988H5.85986V8.63655H5.86653V8.62988Z" stroke="#8E8E8E" stroke-width="2.25" stroke-linejoin="round"/>
+<path id="Vector_4" d="M8.86653 8.62988H8.85986V8.63655H8.86653V8.62988Z" stroke="#8E8E8E" stroke-width="2.25" stroke-linejoin="round"/>
+<path id="Vector_5" d="M11.8665 8.62988H11.8599V8.63655H11.8665V8.62988Z" stroke="#8E8E8E" stroke-width="2.25" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_148_1181">
+<rect width="16" height="16" fill="white" transform="translate(0.859863 0.629883)"/>
+</clipPath>
+</defs>
+</svg>

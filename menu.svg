@@ -1,0 +1,29 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="menu.svg" clip-path="url(#clip0_148_1486)">
+<g id="Clip path group">
+<mask id="mask0_148_1486" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+<g id="a">
+<path id="Vector" d="M24 0.219971H0V24.22H24V0.219971Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_148_1486)">
+<g id="Group">
+<path id="Vector_2" d="M4 4.21997H6V6.21997H4V4.21997Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M4 18.22H6V20.22H4V18.22Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M18 4.21997H20V6.21997H18V4.21997Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M18 11.22H20V13.22H18V11.22Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M11 11.22H13V13.22H11V11.22Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M4 11.22H6V13.22H4V11.22Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M11 4.21997H13V6.21997H11V4.21997Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M11 18.22H13V20.22H11V18.22Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M18 18.22H20V20.22H18V18.22Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_148_1486">
+<rect width="24" height="24" fill="white" transform="translate(0 0.219971)"/>
+</clipPath>
+</defs>
+</svg>

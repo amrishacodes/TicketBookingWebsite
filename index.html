@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   
+
+</head>
+<header>
+    <nav>
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="logo.svg"/>
+            </div>
+            <div class="nav-links">
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Tours</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Tour 1</a></li>
+                            <li><a href="#">Tour 2</a></li>
+                            <li><a href="#">Tour 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Activites</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Rental</a></li>
+                    <li><a href="#">Tickets</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="links two">
+                    <li class ="lang dropdown">
+                        <a href = "#"> EN</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Spanish</a></li>
+                            <li><a href="#">French</a></li>
+                        </ul>
+                    </li>
+                    <li class ="currency dropdown">
+                        <a href = "#"> USD </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">INR</a></li>
+                            <li><a href="#">EUR</a></li>
+                            <li><a href="#">YEN</a></li>
+                        </ul>
+                    </li>
+                    <button class="btn light"><img src ="light.svg"/></button>
+                    <button class="btn signin">Sign In</button>
+                    <img src="menu.svg" class ="menu"/>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <p >The Best Booking System</p>
+            <h1>Find The Best Flight For The Amazing Places</h1>
+        </div>
+        <div class="tick">
+            <img src ="Item1.png"/>
+            <img src ="Item.png"/>
+            <img src ="Item3.png"/>
+        </div>
+        <div class="buttons">
+            <button class = "btn yellow">Contact Us</button>
+            <div class="how">
+                <img src = "play.png"/>
+                <p>How it works?</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="search contain">
+        <div class="search-nav">
+            <div class="links">
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Activites</a></li>
+                <li><a href="#">Hotel</a></li>
+                <li><a href="#">Rental</a></li>
+                <li><a href="#">Tickets</a></li>
+            </div>
+            <div class="help">
+                <img src ="user.svg.svg"/>
+                <p>Need some help?</p>
+            </div>
+        </div>
+        <div class="search-info">
+            <div class="block links">
+                <p>Location</p>
+                <div class="options">
+                    <img src = "location.svg"/>
+                    <li class ="dropdown">
+                        <a href ="#">New York, USA</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Lucknow, India</a></li>
+                            <li><a href="#">Delhi, India</a></li>
+                            <li><a href="#">Banglore, India</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+            <div class="block links">
+                <p>Check In</p>
+                <div class="options">
+                    <img src = "calendar.svg"/>
+                    <li class ="dropdown">
+                        <a href ="#">02 January, 2024</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">03 January, 2024</a></li>
+                            <li><a href="#">04 January, 2024</a></li>
+                            <li><a href="#">05 January, 2024</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+            <div class="block links">
+                <p>Check Out</p>
+                <div class="options">
+                    <img src = "calendar.svg"/>
+                    <li class ="dropdown">
+                        <a href ="#">02 January, 2024</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">03 January, 2024</a></li>
+                            <li><a href="#">04 January, 2024</a></li>
+                            <li><a href="#">05 January, 2024</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+            <div class="block links">
+                <p>Guest</p>
+                <div class="options">
+                    <img src = "user.svg.svg"/>
+                    <li class ="dropdown">
+                        <a href ="#">2 adults, 2 children</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">1 adult</a></li>
+                            <li><a href="#">3 adults, 1 children</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+            <div class="block">
+               <button class = "btn black">Search</button>
+            </div>
+        </div>
+    </div>
+    <div class="logos-slide">
+        <img src = "Container.png"/>
+        <img src = "Container.png"/>
+        <img src = "Container.png"/>
+    </div>
+    <div class="container swiper">
+        <div class="slider">
+            <div class="card-list swiper-wrapper">
+                <div class="card swiper-slide">
+                    <img src="card1.png"/>
+                    <div class="card-title">We Make Every Trips Special</div>
+                    <div class="card-description">Explore the world with our amazing deals.</div>
+                    <button class="btn yellow">View More</button>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="card2.png"/>
+                    <div class="card-title">Limited Offers</div>
+                    <div class="card-description">Buy 1, Get 1 Free Attractions</div>
+                    <button class="btn yellow">View More</button>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="card3.png"/>
+                    <div class="card-title">Limited Offers</div>
+                    <div class="card-description">Buy 1, Get 1 Free Attractions</div>
+                    <button class="btn yellow">View More</button>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="card3.png"/>
+                    <div class="card-title">Limited Offers</div>
+                    <div class="card-description">Buy 1, Get 1 Free Attractions</div>
+                    <button class="btn yellow">View More</button>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+       
+    </div>
+
+<div class="flight-container">
+    <div class="flight-list">
+        <div class="flight-card">         
+          <div class="details">
+            <img src="logo1.png" alt="Airline Logo">
+            <div class="flight-text">
+                <h2>New York (JFK)</h2>
+                <span>20:00 - 05 Jan 2024</span>
+            </div>
+          </div>   
+          <div class="details">
+            <div class="flight-text">
+                <h2>New York (JFK)</h2>
+                <span>20:00 - 05 Jan 2024</span>
+            </div>
+          </div>
+          <div class="details">
+            <div class="flight-text">
+                <span>Business</span>
+                <h2>$189.56</h2>
+            </div>
+          </div>
+          <div class="details">
+            <div class="flight-text">
+                <span>Economy</span>
+                <h2>$120.56</h2>
+            </div>
+          </div>
+
+          <button class="btn f">Book Now</button>
+        </div>
+        <div class="flight-card">         
+            <div class="details">
+              <img src="logo2.png" alt="Airline Logo">
+              <div class="flight-text">
+                  <h2>New York (JFK)</h2>
+                  <span>20:00 - 05 Jan 2024</span>
+              </div>
+            </div>   
+            <div class="details">
+              <div class="flight-text">
+                  <h2>New York (JFK)</h2>
+                  <span>20:00 - 05 Jan 2024</span>
+              </div>
+            </div>
+            <div class="details">
+              <div class="flight-text">
+                  <span>Business</span>
+                  <h2>$189.56</h2>
+              </div>
+            </div>
+            <div class="details">
+              <div class="flight-text">
+                  <span>Economy</span>
+                  <h2>$120.56</h2>
+              </div>
+            </div>
+  
+            <button class="btn f">Book Now</button>
+          </div>
+          <div class="flight-card">         
+            <div class="details">
+              <img src="logo3.png" alt="Airline Logo">
+              <div class="flight-text">
+                  <h2>New York (JFK)</h2>
+                  <span>20:00 - 05 Jan 2024</span>
+              </div>
+            </div>   
+            <div class="details">
+              <div class="flight-text">
+                  <h2>New York (JFK)</h2>
+                  <span>20:00 - 05 Jan 2024</span>
+              </div>
+            </div>
+            <div class="details">
+              <div class="flight-text">
+                  <span>Business</span>
+                  <h2>$189.56</h2>
+              </div>
+            </div>
+            <div class="details">
+              <div class="flight-text">
+                  <span>Economy</span>
+                  <h2>$120.56</h2>
+              </div>
+            </div>
+  
+            <button class="btn f">Book Now</button>
+          </div>
+          <div class="flight-card">         
+            <div class="details">
+              <img src="logo4.png" alt="Airline Logo">
+              <div class="flight-text">
+                  <h2>New York (JFK)</h2>
+                  <span>20:00 - 05 Jan 2024</span>
+              </div>
+            </div>   
+            <div class="details">
+              <div class="flight-text">
+                  <h2>New York (JFK)</h2>
+                  <span>20:00 - 05 Jan 2024</span>
+              </div>
+            </div>
+            <div class="details">
+              <div class="flight-text">
+                  <span>Business</span>
+                  <h2>$189.56</h2>
+              </div>
+            </div>
+            <div class="details">
+              <div class="flight-text">
+                  <span>Economy</span>
+                  <h2>$120.56</h2>
+              </div>
+            </div>
+  
+            <button class="btn f">Book Now</button>
+          </div>
+          <div class="flight-card">         
+            <div class="details">
+              <img src="logo5.png" alt="Airline Logo">
+              <div class="flight-text">
+                  <h2>New York (JFK)</h2>
+                  <span>20:00 - 05 Jan 2024</span>
+              </div>
+            </div>   
+            <div class="details">
+              <div class="flight-text">
+                  <h2>New York (JFK)</h2>
+                  <span>20:00 - 05 Jan 2024</span>
+              </div>
+            </div>
+            <div class="details">
+              <div class="flight-text">
+                  <span>Business</span>
+                  <h2>$189.56</h2>
+              </div>
+            </div>
+            <div class="details">
+              <div class="flight-text">
+                  <span>Economy</span>
+                  <h2>$120.56</h2>
+              </div>
+            </div>
+  
+            <button class="btn f">Book Now</button>
+          </div>
+          <div class="flight-card">         
+          <div class="details">
+            <img src="logo6.png" alt="Airline Logo">
+            <div class="flight-text">
+                <h2>New York (JFK)</h2>
+                <span>20:00 - 05 Jan 2024</span>
+            </div>
+          </div>   
+          <div class="details">
+            <div class="flight-text">
+                <h2>New York (JFK)</h2>
+                <span>20:00 - 05 Jan 2024</span>
+            </div>
+          </div>
+          <div class="details">
+            <div class="flight-text">
+                <span>Business</span>
+                <h2>$189.56</h2>
+            </div>
+          </div>
+          <div class="details">
+            <div class="flight-text">
+                <span>Economy</span>
+                <h2>$120.56</h2>
+            </div>
+          </div>
+
+          <button class="btn f">Book Now</button>
+        </div>
+    </div>
+    
+        <div class="filter-sidebar contain">
+          <h2>Class / Cabin</h2>
+          <div class="filter-group">
+            <label>
+              <input type="checkbox" name="class" value="allClass">
+              All Class
+            </label>
+            <label>
+              <input type="checkbox" name="class" value="business">
+              Business
+            </label>
+          </div>
+          <div class="filter-group">
+            <label>
+              <input type="checkbox" name="class" value="privateSuites">
+              Private Suites
+            </label>
+            <label>
+              <input type="checkbox" name="class" value="economy">
+              Economy
+            </label>
+          </div>
+          <div class="filter-group">
+            <label>
+              <input type="checkbox" name="class" value="executive">
+              Executive
+            </label>
+            <label>
+              <input type="checkbox" name="class" value="firstClass">
+              First Class
+            </label>
+          </div>
+    
+          <h2>Airlines</h2>
+          <div class="filter-group">
+            <label>
+              <input type="checkbox" name="airline" value="all">
+              All
+            </label>
+            <label>
+              <input type="checkbox" name="airline" value="emirates">
+              Emirates
+            </label>
+            <label>
+              <input type="checkbox" name="airline" value="delta">
+              Delta Air Lines
+            </label>
+            <label>
+              <input type="checkbox" name="airline" value="singapore">
+              Singapore Airlines
+            </label>
+            <label>
+              <input type="checkbox" name="airline" value="qatar">
+              Qatar Airways
+            </label>
+            <label>
+              <input type="checkbox" name="airline" value="lufthansa">
+              Lufthansa
+            </label>
+            <label>
+              <input type="checkbox" name="airline" value="cathay">
+              Cathay Pacific
+            </label>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="container-seamless">
+    <div class="btn f seamless">
+        Install app and get discount code
+    </div>
+    <div class="text-seamless">
+      <h1>Discover Seamless Travel with Travila</h1>
+      <p>Embark on a journey like never before with Travila - your ultimate travel companion.</p>
+    </div>
+</div>
+<div class="stats">
+    <div class = "contain">
+      <h1 class = "fancy">45+</h1>
+      <p>Global Branches</p>
+    </div>
+    <div class = "contain">
+      <h1 class = "fancy">29K</h1>
+      <p>Destinations Collaboration</p>
+    </div>
+    <div class  = "contain">
+      <h1 class = "fancy">20+</h1>
+      <p>Years Experience</p>
+    </div>
+    <div class = "contain">
+      <h1 class = "fancy">169K</h1>
+      <p>Happy Customers</p>
+    </div>
+</div>
+<div class="features">
+    <div class="text">
+      <h1>Popular Destinations</h1>
+      <p>Favourite Destination Based On Customer Reviews</p>
+    </div>
+    <div class="stats">
+      <div class="contain">
+        <img src="popular1.png" class ="icon"/>
+        <h2>Venice</h2>
+        <p>Lorem ipsum</p>
+      </div>
+      <div class="contain">
+        <img src="popular2.png" class ="icon"/>
+        <h2>Amsterdam</h2>
+        <p>Lorem ipsum</p>
+      </div>
+      <div class="contain">
+        <img src="popular3.png" class ="icon"/>
+        <h2>Budapest</h2>
+        <p>Lorem ipsum</p>
+      </div>
+      <div class="contain">
+        <img src="popular4.png" class ="icon"/>
+        <h2>Lisbon</h2>
+        <p>Lorem ipsum</p>
+      </div>
+    </div>
+    <div class="stats more">
+      <div class="contain">
+        <img src="popular5.png" class ="icon"/>
+        <h2>London</h2>
+        <p>Lorem ipsum</p>
+      </div>
+      <div class="contain">
+        <img src="popular6.png" class ="icon"/>
+        <h2>Ottawa</h2>
+        <p>Lorem ipsum</p>
+      </div>
+      <div class="contain">
+        <img src="popular7.png" class ="icon"/>
+        <h2>Paris</h2>
+        <p>Lorem ipsum</p>
+      </div>
+      <div class="contain">
+        <h3>Crafting Your Perfect<br> Travel Experience<br></h3>
+        <button class ="btn black">Browse All Destinations</button>
+      </div>
+    </div>
+  </div>
+  <div class="outpanel">
+    <div class="panel">
+        <div class="panel left">
+            <div class="box one">
+                <img class="contain" src ="sky1.png"/>
+                <img class="contain"src ="sky2.png"/>
+            </div>
+            <div class="box one">
+                <img class="contain" src ="sky3.png"/>
+            </div>
+        </div>
+        <div class="panel right">
+            <div class=" panel container-seamless">
+                <div class=" btn f seamless panelbtn">
+                    Takes You Skyward
+                </div>
+                <div class="text-seamless paneltext">
+                <h1>Your Premier Destination for Unmatched Flight Experiences</h1>
+                <p>Experience stress-free travel planning with our website where you
+                    can easily book flights, check in an make changes to your itinerary
+                    with just a few clicks</p>
+                </div>
+                <div class="payment panelpayment">
+                    <img src ="paypal.png"/>
+                    <img src ="stripe.png"/>
+                    <img src ="mastercard.png"/>
+                    <img src ="skrill.png"/>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+  </div>
+  <div class="stats another">
+    <div class = "contain">
+    <img src = "world.svg"/>
+      <h1 class = "fancy">300,000+ Experiences</h1>
+      <p>Make memories around the world.</p>
+    </div>
+    <div class = "contain">
+        <img src = "plans.svg"/>
+      <h1 class = "fancy">Reserve now, Pay later</h1>
+      <p>Book your spot first, pay later.</p>
+    </div>
+    <div class  = "contain">
+        <img src = "reviews.svg"/>
+      <h1 class = "fancy">Trusted Reviews</h1>
+      <p>4.8 stars from 160,000+ Trustpilot
+        reviews.</p>
+    </div>
+    <div class = "contain">
+        <img src = "assurance.svg"/>
+      <h1 class = "fancy">Security Assurance</h1>
+      <p>Data security through encryption</p>
+    </div>
+</div>
+<div class="container swiper test-container">
+    <div class="sliders">
+        <div class="test-wrap card-list swiper-wrapper ">
+            <div class="card swiper-slide test-slide">
+                <button class = "btn yellow">Testimonials</button>
+                <h1>What Our Clients Say</h1>
+                <img class="imagetest" src="img-test4.png.png"/>
+                <div class="name"><h3>Sara Mohammed</h3></div>
+                <div class="ratingtest"><img src = "star.svg.svg"/><img src = "star.svg.svg"/><img src = "star.svg.svg"/><img src = "star.svg.svg"/></div>
+                <div class="card-description">I've been using the hotel booking system for several years now, and it's become my go-to platform
+                    for planning my trips. The interface is user-friendly, and I appreciate the detailed information and
+                    real-time availability of hotels.</div>
+            </div>
+            <div class="card swiper-slide test-slide">
+                <button class = "btn yellow">Testimonials</button>
+                <h1>What Our Clients Say</h1>
+                <img class="imagetest" src="img-test4.png.png"/>
+                <div class="name"><h3>Sara Mohammed</h3></div>
+                <div class="ratingtest"><img src = "star.svg.svg"/><img src = "star.svg.svg"/><img src = "star.svg.svg"/><img src = "star.svg.svg"/><img src = "star.svg.svg"/></div>
+                <div class="card-description">I've been using the hotel booking system for several years now, and it's become my go-to platform
+                    for planning my trips. The interface is user-friendly, and I appreciate the detailed information and
+                    real-time availability of hotels.</div>
+            </div>
+            <div class="card swiper-slide test-slide">
+                <button class = "btn yellow">Testimonials</button>
+                <h1>What Our Clients Say</h1>
+                <img class="imagetest" src="img-test4.png.png"/>
+                <div class="name"><h3>Amrisha Srivastava</h3></div>
+                <div class="ratingtest"><img src = "star.svg.svg"/><img src = "star.svg.svg"/></div>
+                <div class="card-description">I've been using the hotel booking system for several years now, and it's become my go-to platform
+                    for planning my trips. The interface is user-friendly, and I appreciate the detailed information and
+                    real-time availability of hotels.</div>
+            </div>
+            <div class="card swiper-slide test-slide">
+                <button class = "btn yellow">Testimonials</button>
+                <h1>What Our Clients Say</h1>
+                <img class="imagetest" src="img-test4.png.png"/>
+                <div class="name"><h3>Hehe Hihifhshfsjkf</h3></div>
+                <div class="ratingtest"><img src = "star.svg.svg"/><img src = "star.svg.svg"/><img src = "star.svg.svg"/><img src = "star.svg.svg"/></div>
+                <div class="card-description">I've been using the hotel booking system for several years now, and it's become my go-to platform
+                    for planning my trips. The interface is user-friendly, and I appreciate the detailed information and
+                    real-time availability of hotels.</div>
+            </div>
+            
+        </div>
+        <img class ="panel contain test" src ="img-test.png.png"/>
+        <img class ="panel contain test" src ="img-test2.png.png"/>
+        <img class ="panel contain test" src ="img-test3.png.png"/>
+        <img class ="panel contain test" src ="img-test4.png.png"/>
+
+
+        <div class="swiper-pagination"></div>
+    </div>
+   
+</div>
+<div class="features">
+    <div class="text">
+      <h1>Get inspiration for your next trip</h1>
+      <p>Favourite Destination Based On Customer Reviews</p>
+    </div>
+
+    <div class="container swiper">
+        <div class="sliderr">
+            <div class="card-list swiper-wrapper">
+                <div class="card swiper-slide">
+                    <img class ="icon" src="news.png"/>
+                    <div class="card-title">Ultimate Travel Planning Guide: 10
+                        Tips for a Seamless Journey</div>
+                    <button class="btn">Keep Reading</button>
+                </div>
+                <div class="card swiper-slide">
+                    <img class ="icon" src="news.png.png"/>
+                    <div class="card-title">Top 10 Travel Hacks for Budget-
+                        Conscious Adventurers</div>
+                    <button class="btn">Keep Reading</button>
+                </div>
+                <div class="card swiper-slide">
+                    <img class ="icon" src="news2.png.png"/>
+                    <div class="card-title">Discovering Hidden Gems: 10 Off-
+                        the-Beaten-Path Travel Tips</div>
+                    <button class="btn">Keep Reading</button>
+                </div>
+                <div class="card swiper-slide">
+                    <img class ="icon" src="news3.png.png"/>
+                    <div class="card-title">Ultimate Travel Planning Guide: 10
+                        Tips for a Seamless Journey</div>
+                    <button class="btn">Keep Reading</button>
+                </div>
+                <div class="card swiper-slide">
+                    <img class ="icon" src="news.png.png"/>
+                    <div class="card-title">Top 10 Travel Hacks for Budget-
+                        Conscious Adventurers</div>
+                    <button class="btn">Keep Reading</button>
+                </div>
+                <div class="card swiper-slide">
+                    <img class ="icon" src="news2.png.png"/>
+                    <div class="card-title">Discovering Hidden Gems: 10 Off-
+                        the-Beaten-Path Travel Tips</div>
+                    <button class="btn">Keep Reading</button>
+                </div>
+                <div class="card swiper-slide">
+                    <img class ="icon" src="news3.png.png"/>
+                    <div class="card-title">Ultimate Travel Planning Guide: 10
+                        Tips for a Seamless Journey</div>
+                    <button class="btn">Keep Reading</button>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+       
+    </div>
+</div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
